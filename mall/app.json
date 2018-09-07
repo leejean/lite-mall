@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/goods-mall/index",
+    "pages/diamond-mall/index",
+    "pages/my/index",
+    "pages/start/start",
+    "pages/index/index",
+    "pages/goods-details/index",
+    "pages/shop-cart/index",
+    "pages/to-pay-order/index",
+    "pages/select-address/index",
+    "pages/address-add/index",
+    "pages/order-list/index",
+    "pages/order-details/index",
+    "pages/wuliu/index",
+    "pages/mycoupons/index",    
+    "pages/notice/show",
+    "pages/recharge/index",
+    "pages/withdraw/index"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#E6393F",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText":  "美多米商城",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#E6393F",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/goods-mall/index",
+        "iconPath": "images/nav/mall-off.png",
+        "selectedIconPath": "images/nav/mall-on.png",
+        "text": "美多米"
+      },{
+     "pagePath": "pages/diamond-mall/index",
+      "iconPath": "images/nav/diamonds-off.png",
+      "selectedIconPath": "images/nav/diamonds-on.png",
+      "text": "钻石商城"
+    },
+     {
+      "pagePath": "pages/shop-cart/index",
+      "iconPath": "images/nav/cart-off.png",
+      "selectedIconPath": "images/nav/cart-on.png",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "iconPath": "images/nav/my-off.png",
+      "selectedIconPath": "images/nav/my-on.png",
+      "text": "我的"
+    }]
+  }
+}

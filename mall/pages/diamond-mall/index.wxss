@@ -1,0 +1,102 @@
+/**index.wxss**/
+.container {
+  background-color: #F2f2f2;
+  min-height: 100%; 
+} 
+ .goods-container{
+  display: flex;
+  justify-content: space-between;  
+  flex-wrap:wrap;
+  box-sizing: content-box;
+} 
+.goods-box{
+  width: 100%;
+  height: 190rpx;
+  padding:40rpx;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.goods-box .img-box{
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+}
+.goods-box .img-box image{
+   width: 200rpx;
+   height: 200rpx;
+}
+
+.info-box{
+  margin-left: 24rpx;
+  height: 200rpx;
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+.info-box .goods-title{
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+  color:#000;
+}
+.info-box .goods-tags{
+  display: flex;
+  height: 30rpx;
+  margin-top: 6rpx;
+}
+.info-box .goods-active{
+  display: flex;
+  height: 40rpx;
+  margin-top: 10rpx;
+} 
+.info-box .goods-opts{
+  height:50rpx;
+  width: 100%;
+  display:flex;
+}
+.goods-opts .goods-price{
+  overflow: hidden;
+  font-size: 40rpx;
+  color:#e64340;
+  height: 50rpx;
+}
+.goods-opts .goods-price text{
+  font-size: 24rpx;
+  margin-right: 11rpx;
+}
+.goods-opts .goods-original-price{
+  height: 50rpx;
+  margin-left: 18rpx;
+  font-size: 24rpx;
+  color:#9A9A9A;
+  text-decoration:line-through;
+  line-height: 64rpx;
+}
+.goods-opts .goods-original-price text{
+  font-size: 24rpx;
+  margin-right: 11rpx;
+}
+.goods-opts .goods-buy{
+  margin-right: 18rpx;
+  width: 120rpx;
+  height: 50rpx;
+  background-color: #E6393F;
+  color: #FFFFFF;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+
+
+.no-more-goods{
+  text-align: center;
+  font-size: 24rpx;
+  padding-bottom:48rpx; 
+  color: #999;
+}

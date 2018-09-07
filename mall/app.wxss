@@ -1,0 +1,68 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: PingFangSC;
+} 
+.wxParse-img {
+  display: block !important;
+}
+/**
+    标签
+*/
+.mdm-label {
+    display: inline-block;
+    height: 36rpx;
+    line-height: 36rpx;
+    padding: 0 10rpx;
+    font-size: 24rpx;
+    font-family: PingFangSC;
+    border-radius: 4rpx;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-right: 10rpx;
+    background-color:transparent;
+    border:1px solid #999999;
+    color:#999999;
+}
+.mdm-label+.red{
+    border:1px solid #ff5777;
+    color:#ff5777;
+}
+.mdm-label+.orange{
+    border:1px solid #FF7800;
+    color:#FF7800;
+}
+
+/*
+  活动倒计时
+*/
+.mdm-countdown{
+  display: flex;
+  font-size: 24rpx;
+  font-family: PingFangSC;
+  overflow: hidden;
+  text-align: center;
+  line-height: 24rpx;
+}
+.mdm-countdown .title{
+  color:#989898;
+  line-height: 38rpx;
+  margin-right: 14rpx;
+}
+.mdm-countdown .dot{
+  color:#989898;
+  line-height: 38rpx;
+  width: 20rpx;
+}
+.mdm-countdown .hours,.mdm-countdown .mins,.mdm-countdown .secs{
+  width:40rpx;
+ line-height: 38rpx; 
+  color:#fff;
+  background: #000;
+  border-radius: 4rpx;
+}
