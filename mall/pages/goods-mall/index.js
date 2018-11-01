@@ -11,7 +11,6 @@ Page({
   },
   onLoad: function () {
     var that = this
-    wx.showTabBarRedDot({ index: 2 })
     that.getGoodsList()
   },
   //监听该页面用户下拉刷新事件
@@ -43,7 +42,7 @@ Page({
         var goods = [{
           "id": 6765,
           "pic": "https://cdn.it120.cc/apifactory/2017/10/30/b07ee85fa64f0c68aa9a45fba20ec689.jpg",
-          "name": "x500 个钻石小福袋",
+          "name": "x500 个钻石小福袋x500",
           "minPrice": 998.88,
           "originalPrice": 788.99,
         }, {
@@ -83,5 +82,10 @@ Page({
         });
       }
     })
-  }
+  },
+  toDetailsTap: function (e) {
+    wx.navigateTo({
+      url: "/pages/goods-detail/index?id=" + e.currentTarget.dataset.id
+    })
+  },
 })

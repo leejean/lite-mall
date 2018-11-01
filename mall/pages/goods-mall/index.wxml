@@ -24,8 +24,10 @@
                       </view>
                   </view>
                   <view class='goods-opts'>
-                    <view class="goods-price"><text>¥</text>{{item.minPrice}}</view>
-                    <view class="goods-original-price"><text>¥</text>{{item.originalPrice}}</view>
+                    <view style="display:flex">                    
+                      <view class="goods-price"><text>¥</text>{{item.minPrice}}</view>
+                      <view class="goods-original-price"><text>¥</text>{{item.originalPrice}}</view>
+                    </view>
                     <view class="add-to-cart"></view>
                   </view> 
               </view>

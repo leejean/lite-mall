@@ -1,17 +1,24 @@
 {
   "pages":[
+    "pages/goods-detail/index",
+    
     "pages/goods-mall/index",
     "pages/diamond-mall/index",
+
     "pages/my/index",
     "pages/start/start",
     "pages/index/index",
     "pages/goods-details/index",
+
     "pages/shop-cart/index",
     "pages/to-pay-order/index",
     "pages/select-address/index",
     "pages/address-add/index",
     "pages/order-list/index",
+
     "pages/order-details/index",
+    "pages/order-detail/index",
+
     "pages/wuliu/index",
     "pages/mycoupons/index",    
     "pages/notice/show",
@@ -42,6 +49,11 @@
       "iconPath": "images/nav/diamonds-off.png",
       "selectedIconPath": "images/nav/diamonds-on.png",
       "text": "钻石商城"
+    },{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/nav/diamonds-off.png",
+      "selectedIconPath": "images/nav/diamonds-on.png",
+      "text": "原首页"
     },
      {
       "pagePath": "pages/shop-cart/index",
